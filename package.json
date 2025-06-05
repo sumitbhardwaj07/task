@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "postinstall": "npm install",
     "dev": "node server.js",
     "build": "echo \"No build step needed\""
   },
